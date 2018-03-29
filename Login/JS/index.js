@@ -58,5 +58,5 @@ function login(params) {
 (function isLogged() {
   console.log('me llamé');
   const user = JSON.parse(window.localStorage.getItem('user'));
-  if (user) window.location.replace('panel/index.html')
+  if (user) window.location.replace('Panel/index.html')
 }) ();
